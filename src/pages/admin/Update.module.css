@@ -1,0 +1,49 @@
+.updateDiv{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.leftdiv{
+    width: 50%;
+    float: left;
+}
+.img{
+    width: 350px;
+    float: right;
+}
+.right{
+    width: 50%;
+    float: left;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    transform: translate(0, 20%);
+}
+.inputInfo{
+    margin-left: 10px;
+    float: left;
+}
+.btnPosition{
+    display: flex;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.Btn{
+    background: none;
+    color:white;
+    border: 1px solid white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+.Btn:hover{
+    color:black;
+    background-color: white;
+}

@@ -1,0 +1,59 @@
+.registDiv{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 45%;
+    transform: translate(0, 50%);
+    border-radius: 20px;
+}
+.title{
+    color:rgb(1,159,251);
+    font-size: 35px;
+}
+.registline{
+    position: relative;
+    top: 45%;
+    transform: translate(0, -45%);
+}
+.inputBox{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    margin-bottom: 7px;
+    
+}
+
+.btn{
+    background: white;
+      width: 70px;
+      height: 35px;
+      border: 2px solid rgb(1,159,251);
+      color: rgb(1,159,251);
+      font-size: small;
+      font-weight: bold;
+      border-radius: 10px;
+}
+
+.btn:hover{
+    color:white;
+    font-size: medium;
+    background-color: rgb(1,159,251);
+    width: 90px;
+    height: 40px;
+
+}
+.img{
+    float: left;
+    position: absolute;
+    top: 35%;
+    transform: translate(0, 50%);
+    padding-left: 100px;
+}

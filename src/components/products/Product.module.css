@@ -1,0 +1,15 @@
+
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.tagH5{
+    text-align: center;
+    color: white;
+}
+.list{
+    margin: 10px;
+    flex-direction: row;
+    float: left;
+}

@@ -1,0 +1,39 @@
+.footerDiv {
+    position: relative;
+    background:	rgb(1,159,251);
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.footerMenu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+}
+.navLink{
+    font-size: 1em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+.h5{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    align-items: center;
+
+}
