@@ -57,7 +57,7 @@ export const callListAboutLicenseAPI = () => {
 }
 
 export const callLicenseDetailApI = ({licenseCode}) => {
-    const requestURL = `http://localhost:8999/api/v1/licenses/${licenseCode}`;
+    const requestURL = `http://${process.env.REACT_APP_RESTAPI_IP}:8999/api/v1/licenses/${licenseCode}`;
 
     console.log(requestURL);
 
